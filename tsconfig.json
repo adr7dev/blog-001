@@ -21,11 +21,7 @@
       "@/state/*": ["src/state/*"],
       "@/utils/*": ["src/utils/*"]
     },
-    "plugins": [
-      {
-        "name": "typescript-styled-plugin"
-      }
-    ],
+    "plugins": [],
     "typeRoots": ["./node_modules/@types", "./@types"]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
